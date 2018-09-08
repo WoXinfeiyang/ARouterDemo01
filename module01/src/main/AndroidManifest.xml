@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fxj.module01">
+
+    <application>
+        <activity
+            android:name=".Module1Activity1"
+            android:label="@string/title_module1_activity1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
