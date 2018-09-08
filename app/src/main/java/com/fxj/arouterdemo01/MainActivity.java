@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends Activity{
 
     private final String tag=MainActivity.class.getSimpleName();
 
@@ -15,12 +15,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.navigateToAppModule).setOnClickListener(this);
-        findViewById(R.id.navigateToOtherModule).setOnClickListener(this);
+
     }
 
-    @Override
-    public void onClick(View v){
+    public void onClickHandler(View v){
         switch (v.getId()){
             case R.id.navigateToAppModule:
                 Log.i(tag,"R.id.navigateToAppModule被点击了!");
