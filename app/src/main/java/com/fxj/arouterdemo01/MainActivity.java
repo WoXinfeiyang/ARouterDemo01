@@ -55,7 +55,7 @@ public class MainActivity extends Activity{
                 break;
             case R.id.navigateToOtherModule:
                 Log.i(tag,"R.id.navigateToOtherModule被点击了!");
-                ARouter.getInstance().build("/module01/Module1Activity1").navigation();
+                ARouter.getInstance().build("/module02/Module2Activity1").navigation();
                 break;
 
             case R.id.getServiceByType:
