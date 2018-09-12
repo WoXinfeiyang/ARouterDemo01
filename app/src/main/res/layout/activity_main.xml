@@ -50,6 +50,14 @@
             android:layout_margin="5dp"
             android:onClick="onClickHandler"
             android:text="动态修改路由"/>
+
+        <Button
+            android:id="@+id/degrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickHandler"
+            android:text="跳转失败降级"/>
     </LinearLayout>
 
 </ScrollView>

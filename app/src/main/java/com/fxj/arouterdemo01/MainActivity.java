@@ -79,6 +79,10 @@ public class MainActivity extends Activity{
                 Log.d(tag,"动态修改路由机制按钮被点击了!");
                 ARouter.getInstance().build("/app/AppActivity2").navigation();
                 break;
+            case R.id.degrade:
+                Log.d(tag,"跳转失败降级");
+                ARouter.getInstance().build("/xx/xx").navigation();
+                break;
         }
     }
 }
