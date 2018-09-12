@@ -74,6 +74,11 @@ public class MainActivity extends Activity{
                     Log.d(tag,"通过ByName获取Service为空");
                 }
                 break;
+
+            case R.id.replacePath:
+                Log.d(tag,"动态修改路由机制按钮被点击了!");
+                ARouter.getInstance().build("/app/AppActivity2").navigation();
+                break;
         }
     }
 }

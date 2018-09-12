@@ -42,6 +42,14 @@
             android:layout_margin="5dp"
             android:onClick="onClickHandler"
             android:text="通过ByName获取Service"/>
+
+        <Button
+            android:id="@+id/replacePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickHandler"
+            android:text="动态修改路由"/>
     </LinearLayout>
 
 </ScrollView>
