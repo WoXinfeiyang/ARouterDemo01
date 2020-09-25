@@ -1,5 +1,5 @@
 ext{
     config=[
-            "runType":0
+            runType     :0
     ]
 }
