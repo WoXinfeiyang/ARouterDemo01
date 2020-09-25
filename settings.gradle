@@ -1,1 +1,4 @@
 include ':app', ':module01', ':module02'
+include ':arouter-annotation'
+include ':arouter-api'
+include ':arouter-compiler'
