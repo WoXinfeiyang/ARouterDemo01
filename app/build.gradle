@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.alibaba.arouter'
 apply from:"../config.gradle"
 
 int runType= Integer.parseInt(RUN_TYPE)
